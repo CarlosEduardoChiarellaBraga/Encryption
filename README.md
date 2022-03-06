@@ -26,10 +26,10 @@ key --> [12, 34, 56, 78]<br/>
 a --> 0 + 12 = 12. Since there is  no othe number with the value of 12, we will subtract the (highest value + 1) from this value until it is correspondent to another digit.
 <br/> 12 - 5 = 7 - 5 = 2 --> value of "c"
 <br/>Then, "c" would be the first letter of the encrypted txt.<br/>
-b --> 1 + 34 = 35. Since there is  no othe number with the value of 35, we will subtract the (highest value + 1) from this value until it is correspondent to another digit.
+b --> 1 + 34 = 35. Since there is  no number with the value of 35, we will subtract the (highest value + 1) from this value until it is correspondent to another digit.
 <br/> 35 - 5 = 30 - 5 = 25 - 5 = 20 - 5 = 15 - 10 = 5 - 5 = 0 --> value of "a"
 <br/>Then, "a" would be the second letter of the encrypted txt. 
-<br/>This would happen until there are no more digits to be encrypted. If current = len(key), current goes back to  the beginning.
+<br/>This would happen until there are no more digits to be encrypted. If current == len(key), current goes back to the beginning, receiving the value of 0.
 <br/><br/>
 Decryption:
 <br/>It is the opposite from the encryption: we get the value of the encrypted digit, add the key[current], and subtract from len(alf) until the value is represented by a digit. This digit will be the decrypted digit.
