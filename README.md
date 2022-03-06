@@ -25,7 +25,7 @@ For each letter on the text, two digits of the key will be  added to the value o
 key --> [12, 34, 56, 78]<br/>
 a --> 0 + 12 = 12. Since there is  no othe number with the value of 12, we will subtract the (highest value + 1) from this value until it is correspondent to another digit.
 <br/> 12 - 5 = 7 - 5 = 2 --> value of "c"
-<br/>Then, "c" would be the first letter of the encrypted txt.
+<br/>Then, "c" would be the first letter of the encrypted txt.<br/>
 b --> 1 + 34 = 35. Since there is  no othe number with the value of 35, we will subtract the (highest value + 1) from this value until it is correspondent to another digit.
 <br/> 35 - 5 = 30 - 5 = 25 - 5 = 20 - 5 = 15 - 10 = 5 - 5 = 0 --> value of "a"
 <br/>Then, "a" would be the second letter of the encrypted txt. 
