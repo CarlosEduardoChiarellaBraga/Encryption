@@ -2,7 +2,7 @@
 I made an algorithm that encrypt/decrypt text with only some of the characters avaiable, given a key and the text.
 
 # Is it safe?
-I am far from an expert on Computer Science: I am just having fun building some algorithms/tools. This is  *for fun only*. So *PLEASE* do not use this as something safe... I am just having fun :)
+Actually, I don't even know if this is applicable on a real-world project: there are not key-exchange systems, it is only one file with some functions. I am far from an expert on Computer Science: I am just having fun building some algorithms/tools. This is  *for fun only*.
 
 # What it is?
 I made an algorithm to encrypt a message with limited amount of characters *(but you can add if you want, it is as easy as adding at "alf" list)*.
@@ -11,7 +11,7 @@ I made an algorithm to encrypt a message with limited amount of characters *(but
 Input: a str (with characters avaiable in "alf" list only) and a key for both of the functions (Encryption and Decryption).
 Output: text encrypted/decrypted.
 
-# How it works
+# How it works:
 The key is transformed into a list made its digits separared in pairs. If the number of digits is odd, an "0" will be added on the last element of the list
 <br/>Ex1: the key 1234 is transformed in [12, 34]
 <br/>Ex2: the key 1235 is transformed in [12, 34, 50]
