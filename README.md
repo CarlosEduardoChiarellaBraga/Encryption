@@ -1,9 +1,6 @@
 # Encryption
 I made an algorithm that encrypt/decrypt text with only some of the characters avaiable, given a key and the text.
 
-# Is it safe?
-Actually, I don't even know if this is applicable on a real-world project: there are not key-exchange systems, it is only one file with some functions. I am far from an expert on Computer Science: I am just having fun building some algorithms/tools. This is  *for fun only*.
-
 # What it is?
 I made an algorithm to encrypt a message with limited amount of characters *(but you can add if you want, it is as easy as adding at "alf" list)*.
 
