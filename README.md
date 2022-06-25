@@ -11,7 +11,7 @@ Output: text encrypted/decrypted.
 # How it works:
 The key is transformed into a list made its digits separared in pairs. If the number of digits is odd, an "0" will be added on the last element of the list
 <br/>Ex1: the key 1234 is transformed in [12, 34]
-<br/>Ex2: the key 1235 is transformed in [12, 34, 50]
+<br/>Ex2: the key 12345 is transformed in [12, 34, 50]
 <br/><br/>
 A variable "current" keeps track of the current index of the key. For each time that we move a character on the str, the current will be updated.
 <br/>
